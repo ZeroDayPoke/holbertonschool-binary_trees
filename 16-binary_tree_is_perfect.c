@@ -40,7 +40,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	for (i = 0; i < h; i++)
 		num *= 2;
 	num--;
-	printf("%d\n%d\n", nodes, num);
 	if (nodes == num)
 	{
 		return (1);
