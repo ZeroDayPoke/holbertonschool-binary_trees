@@ -15,6 +15,8 @@
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <math.h>
+#include <stdbool.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -58,5 +60,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 size_t binary_tree_height_2(const binary_tree_t *tree);
+int heightT(const binary_tree_t *tree);
+int countNodes(const binary_tree_t *tree);
 
 #endif
