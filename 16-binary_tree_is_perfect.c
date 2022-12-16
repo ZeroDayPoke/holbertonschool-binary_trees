@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include <math.h>
 
 /**
  * countNodes - counts nodes in tree
@@ -32,12 +31,19 @@ int heightT(const binary_tree_t *tree)
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int nodes, h;
+	int nodes, h, i, num = 2;
 
 	if (!(tree))
 		return (0);
 	nodes = countNodes(tree);
 	h = heightT(tree);
-
-	return (nodes == (int)(pow(2, h + 1) - 1));
+	for (i = 0; i < h; i++)
+		num *= 2;
+	num--;
+	printf("%d\n%d\n", nodes, num);
+	if (nodes == num)
+	{
+		return (1);
+	}
+	return (0);
 }
