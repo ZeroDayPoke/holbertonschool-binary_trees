@@ -32,10 +32,12 @@ int heightT(const binary_tree_t *tree)
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
+	int nodes, h;
+
 	if (!(tree))
 		return (0);
-	int nodes = countNodes(tree);
-	int h = heightT(tree);
+	nodes = countNodes(tree);
+	h = heightT(tree);
 
 	return (nodes == (int)(pow(2, h + 1) - 1));
 }
