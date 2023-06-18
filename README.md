@@ -40,39 +40,39 @@ The repository includes the following files:
 
 - `1-binary_tree_insert_left.c`: This file contains a function that inserts a node as the left-child of another node. The function takes a pointer to the parent node and an integer value to store in the new node. If the parent node already has a left child, the new node must take its place, and the old left child must be set as the left child of the new node.
 
-- '2-binary_tree_insert_right.c': This file contains a function that inserts a node as the right-child of another node. The function takes a pointer to the parent node and an integer value to store in the new node. If the parent node already has a right child, the new node must take its place, and the old right child must be set as the right child of the new node.
+- `2-binary_tree_insert_right.c`: This file contains a function that inserts a node as the right-child of another node. The function takes a pointer to the parent node and an integer value to store in the new node. If the parent node already has a right child, the new node must take its place, and the old right child must be set as the right child of the new node.
 
-- '3-binary_tree_delete.c': This file contains a function that deletes an entire binary tree. It frees each node in the tree using a post-order traversal.
+- `3-binary_tree_delete.c`: This file contains a function that deletes an entire binary tree. It frees each node in the tree using a post-order traversal.
 
-- '4-binary_tree_is_leaf.c': This file contains a function that checks if a node is a leaf of a binary tree. A node is a leaf if it has no children.
+- `4-binary_tree_is_leaf.c`: This file contains a function that checks if a node is a leaf of a binary tree. A node is a leaf if it has no children.
 
-- '5-binary_tree_is_root.c': This file contains a function that checks if a given node is the root of a binary tree. A node is a root if it has no parent.
+- `5-binary_tree_is_root.c`: This file contains a function that checks if a given node is the root of a binary tree. A node is a root if it has no parent.
 
-- '6-binary_tree_preorder.c': This file contains a function that goes through a binary tree using pre-order traversal. It visits the root node first, then the left subtree, and finally the right subtree.
+- `6-binary_tree_preorder.c`: This file contains a function that goes through a binary tree using pre-order traversal. It visits the root node first, then the left subtree, and finally the right subtree.
 
-- '7-binary_tree_inorder.c': This file contains a function that goes through a binary tree using in-order traversal. It visits the left subtree first, then the root node, and finally the right subtree.
+- `7-binary_tree_inorder.c`: This file contains a function that goes through a binary tree using in-order traversal. It visits the left subtree first, then the root node, and finally the right subtree.
 
-- '8-binary_tree_postorder.c': This file contains a function that goes through a binary tree using post-order traversal. It visits the left subtree first, then the right subtree, and finally the root node.
+- `8-binary_tree_postorder.c`: This file contains a function that goes through a binary tree using post-order traversal. It visits the left subtree first, then the right subtree, and finally the root node.
 
-- '9-binary_tree_height.c': This file contains a function that measures the height of a binary tree. The height is the maximum distance from the root node to any leaf.
+- `9-binary_tree_height.c`: This file contains a function that measures the height of a binary tree. The height is the maximum distance from the root node to any leaf.
 
-- '10-binary_tree_depth.c': This file contains a function that measures the depth of a node in a binary tree. The depth is the distance from the root node to the given node.
+- `10-binary_tree_depth.c`: This file contains a function that measures the depth of a node in a binary tree. The depth is the distance from the root node to the given node.
 
-- '11-binary_tree_size.c': This file contains a function that measures the size of a binary tree. The size is the total number of nodes in the tree.
+- `11-binary_tree_size.c`: This file contains a function that measures the size of a binary tree. The size is the total number of nodes in the tree.
 
-- '12-binary_tree_leaves.c': This file contains a function that counts the leaves in a binary tree. A leaf is a node with no children.
+- `12-binary_tree_leaves.c`: This file contains a function that counts the leaves in a binary tree. A leaf is a node with no children.
 
-- '13-binary_tree_nodes.c': This file contains a function that counts the nodes with at least 1 child in a binary tree.
+- `13-binary_tree_nodes.c`: This file contains a function that counts the nodes with at least 1 child in a binary tree.
 
-- '14-binary_tree_balance.c': This file contains a function that measures the balance factor of a binary tree. The balance factor is the difference between the heights of the left and right subtrees.
+- `14-binary_tree_balance.c`: This file contains a function that measures the balance factor of a binary tree. The balance factor is the difference between the heights of the left and right subtrees.
 
-- '15-binary_tree_is_full.c': This file contains a function that checks if a binary tree is full. A binary tree is full if every node has either 0 or 2 children.
+- `15-binary_tree_is_full.c`: This file contains a function that checks if a binary tree is full. A binary tree is full if every node has either 0 or 2 children.
 
-- '16-binary_tree_is_perfect.c': This file contains a function that checks if a binary tree is perfect. A binary tree is perfect if all its levels are completely filled.
+- `16-binary_tree_is_perfect.c`: This file contains a function that checks if a binary tree is perfect. A binary tree is perfect if all its levels are completely filled.
 
-- '17-binary_tree_sibling.c': This file contains a function that finds the sibling of a node in a binary tree. The sibling is the other child of the node's parent.
+- `17-binary_tree_sibling.c`: This file contains a function that finds the sibling of a node in a binary tree. The sibling is the other child of the node's parent.
 
-- '18-binary_tree_uncle.c': This file contains a function that finds the uncle of a node in a binary tree. The uncle is the sibling of the node's parent.
+- `18-binary_tree_uncle.c`: This file contains a function that finds the uncle of a node in a binary tree. The uncle is the sibling of the node's parent.
 
 - `binary_trees.h`: This is the header file. It includes the definition of the `binary_tree_t` type, which is used to represent a binary tree node. It also includes the prototypes for all functions implemented in this project.
 
