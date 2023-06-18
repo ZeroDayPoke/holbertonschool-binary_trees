@@ -15,6 +15,23 @@ The repository includes the following files:
 
 - `0-binary_tree_node.c`: [Creates a binary tree node](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/0-binary_tree_node.c)
 - `1-binary_tree_insert_left.c`: [Inserts a node as the left-child of another node](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/1-binary_tree_insert_left.c)
+- `2-binary_tree_insert_right.c`: [Inserts a node as the right-child of another node in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/2-binary_tree_insert_right.c)
+- `3-binary_tree_delete.c`: [Deletes an entire binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/3-binary_tree_delete.c)
+- `4-binary_tree_is_leaf.c`: [Checks if a node is a leaf of a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/4-binary_tree_is_leaf.c)
+- `5-binary_tree_is_root.c`: [Checks if a given node is the root of a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/5-binary_tree_is_root.c)
+- `6-binary_tree_preorder.c`: [Goes through a binary tree using pre-order traversal.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/6-binary_tree_preorder.c)
+- `7-binary_tree_inorder.c`: [Goes through a binary tree using in-order traversal.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/7-binary_tree_inorder.c)
+- `8-binary_tree_postorder.c`: [Goes through a binary tree using post-order traversal.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/8-binary_tree_postorder.c)
+- `9-binary_tree_height.c`: [Measures the height of a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/9-binary_tree_height.c)
+- `10-binary_tree_depth.c`: [Measures the depth of a node in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/10-binary_tree_depth.c)
+- `11-binary_tree_size.c`: [Measures the size of a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/11-binary_tree_size.c)
+- `12-binary_tree_leaves.c`: [Counts the leaves in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/12-binary_tree_leaves.c)
+- `13-binary_tree_nodes.c`: [Counts the nodes with at least 1 child in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/13-binary_tree_nodes.c)
+- `14-binary_tree_balance.c`: [Measures the balance factor of a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/14-binary_tree_balance.c)
+- `15-binary_tree_is_full.c`: [Checks if a binary tree is full.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/15-binary_tree_is_full.c)
+- `16-binary_tree_is_perfect.c`: [Checks if a binary tree is perfect.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/16-binary_tree_is_perfect.c)
+- `17-binary_tree_sibling.c`: [Finds the sibling of a node in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/17-binary_tree_sibling.c)
+- `18-binary_tree_uncle.c`: [Finds the uncle of a node in a binary tree.](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/18-binary_tree_uncle.c)
 - `binary_trees.h`: [Header file containing the definition of the `binary_tree_t` type and all function prototypes](https://github.com/ZeroDayPoke/holbertonschool-binary_trees/blob/master/binary_trees.h)
 
 ## File Descriptions
@@ -22,6 +39,24 @@ The repository includes the following files:
 - `0-binary_tree_node.c`: This file contains a function that creates a binary tree node. The function takes a pointer to the parent node and an integer value to store in the new node. It returns a pointer to the new node, or `NULL` on failure.
 
 - `1-binary_tree_insert_left.c`: This file contains a function that inserts a node as the left-child of another node. The function takes a pointer to the parent node and an integer value to store in the new node. If the parent node already has a left child, the new node must take its place, and the old left child must be set as the left child of the new node.
+
+- `2-binary_tree_insert_right.c`: Inserts a node as the right-child of another node in a binary tree.
+- `3-binary_tree_delete.c`: Deletes an entire binary tree.
+- `4-binary_tree_is_leaf.c`: Checks if a node is a leaf of a binary tree.
+- `5-binary_tree_is_root.c`: Checks if a given node is the root of a binary tree.
+- `6-binary_tree_preorder.c`: Goes through a binary tree using pre-order traversal.
+- `7-binary_tree_inorder.c`: Goes through a binary tree using in-order traversal.
+- `8-binary_tree_postorder.c`: Goes through a binary tree using post-order traversal.
+- `9-binary_tree_height.c`: Measures the height of a binary tree.
+- `10-binary_tree_depth.c`: Measures the depth of a node in a binary tree.
+- `11-binary_tree_size.c`: Measures the size of a binary tree.
+- `12-binary_tree_leaves.c`: Counts the leaves in a binary tree.
+- `13-binary_tree_nodes.c`: Counts the nodes with at least 1 child in a binary tree.
+- `14-binary_tree_balance.c`: Measures the balance factor of a binary tree.
+- `15-binary_tree_is_full.c`: Checks if a binary tree is full.
+- `16-binary_tree_is_perfect.c`: Checks if a binary tree is perfect.
+- `17-binary_tree_sibling.c`: Finds the sibling of a node in a binary tree.
+- `18-binary_tree_uncle.c`: Finds the uncle of a node in a binary tree.
 
 - `binary_trees.h`: This is the header file. It includes the definition of the `binary_tree_t` type, which is used to represent a binary tree node. It also includes the prototypes for all functions implemented in this project.
 
